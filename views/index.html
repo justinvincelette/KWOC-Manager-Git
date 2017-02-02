@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KWOC - Manager</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="javascripts/script.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+
+	<link rel="stylesheet" type="text/css" href="css/style.css"></style>
+
+</head>
+	<body ng-app="galleryManager" ng-controller="myCtrl">
+		<ul id="galleryTypes">
+			<li><a ng-click="setType('canvas')">Canvas</a></li>
+			<li><a ng-click="setType('misc')">Miscellaneous</a></li>
+			<li><a ng-click="setType('ornaments')">Ornaments</a></li>
+			<li><a ng-click="setType('prints')">Prints</a></li>
+			<li style="float:right"><a ng-click="openModal()">Save</a></li>
+			<li style="float:right"><a class="upload-btn">Upload New Piece</a></li>
+			<li style="float:right"><a ng-click="editRows()">Edit rows</a></li>
+		</ul>
+		<input id="upload-input" type="file" name="uploads[]"></br>
+        <div class="modal">
+        	<div class="modal-content">
+	        	<h3>Enter Password</h3>
+	        	<h5>Needed to submit content set up to KristensWorldOfColor.com</h5>
+	        	<h5 ng-if="authError" class="error">{{authError}}</h5>
+	  			Password: <input type="password" id="password"><br><br>
+	  			<button class="btn btn-lg" ng-click="save()">Submit</button><button class="btn btn-lg" ng-click="cancelSave()">Cancel</button><br>
+	  		</div>
+		</div>
+		<h4 id="message">{{message}}</h4><br>
+		<div class="container">	
+			<div ng-repeat="row in data[type]" class="row connected minHeight" ng-init="rowIndex = $index" id="sortable-{{$index}}">
+				<div ng-repeat="piece in row" class="col-sm-{{piece.columns}} col-xs-offset-{{piece.offset}}" ng-init="columnIndex = $index">
+						<div ng-if="piece.fileName" class="image">
+							<img class="img-thumbnail" ng-src="/content/{{type}}/{{piece.fileName}}"/>
+							<div class="editButtons">
+								<span class="move" ng-click="moveLeft($index, $event)" title="Shift left">&#8592;</span>
+								<span class="decrease" ng-click="decreaseSize($index, $event)" title="Decrease size">-</span>
+								<span class="increase" ng-click="increaseSize($index, $event)" title="Increase size">+</span>
+								<span class="move" ng-click="moveRight($index, $event)" title="Shift right">&#8594;</span>
+								<span class="delete" ng-click="delete($index, $event)" title="Delete art piece">x</span>
+							</div>
+						</div>
+						<h3 ng-if="piece.title" ng-click="editTitle($index, $event)">{{piece.title}}</h3>
+						<!-- <div ng-if="!piece.fileName" class="placeholder">&nbsp;</div> -->
+				</div>
+				<div ng-if="rowEdit" class="rowCommands">
+					<span><span class="insertRow" ng-click="insertRowAbove($event)" title="Insert new row above this one">&#8593;</span> INSERT ROW <span class="insertRow" ng-click="insertRowBelow($event)" title="Insert new row below this one">&#8595;</span></span><br>
+					<span><span class="swapRow" ng-click="swapRowAbove($event)" title="Swap this row with the one above it">&#8593;</span> SWAP ROW <span class="swapRow" ng-click="swapRowBelow($event)" title="Swap this row with the one below it">&#8595;</span></span><br>
+					<span class="deleteRow" ng-click="deleteRow($event)" title="Delete this entire row">DELETE ROW {{$index}}</span>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>

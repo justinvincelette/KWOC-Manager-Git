@@ -1,0 +1,484 @@
+{
+  "canvas": [
+    [ 
+      {
+        "fileName": "beach3piece.jpg",
+        "title": "Three Panel Caribbean Beach",
+        "columns": 10,
+        "offset": 1
+      }
+    ],
+    [
+      {
+        "fileName": "xmasBeachSnowman.jpg",
+        "title": "Christmas on the Beach",
+        "columns": 6
+      },
+      {
+        "fileName": "snowmenBeach.jpg",
+        "title": "Christmas Love on the Beach",
+        "columns": 6
+      }
+    ],
+    [
+      {
+        "fileName": "beachLighthouse.jpg",
+        "title": "Lighthouse in Distance",
+        "columns": 6
+      },
+      {
+        "fileName": "love3piece.jpg",
+        "title": "Signs of Love",
+        "columns": 6
+      }
+    ],
+    [ 
+      {
+        "fileName": "beach4piece.jpg",
+        "title": "Beach Highlights",
+        "columns": 6,
+        "offset": 3
+      }
+    ],
+    [ 
+      {
+        "fileName": "boston.jpg",
+        "title": "Boston Skyline",
+        "columns": 10,
+        "offset": 1
+      }
+    ],
+    [
+      {
+        "fileName": "gooseberry.jpg",
+        "title": "Gooseberry Island, Westport",
+        "columns": 6
+      },
+      {
+        "fileName": "gooseberry2.jpg",
+        "title": "Gooseberrt Tower, Westport",
+        "columns": 6
+      }
+    ],
+    [
+      {
+        "fileName": "hotairballoon.jpg",
+        "title": "Balloons in Flight",
+        "columns": 4
+      },
+      {
+        "fileName": "fallFoliage.jpg",
+        "title": "Fall Foliage",
+        "columns": 4
+      },
+      {
+        "fileName": "lighthouse.jpg",
+        "title": "Cliff Lighthouse",
+        "columns": 4
+      }
+    ],
+    [
+      {
+        "fileName": "lighthouseXmas.jpg",
+        "title": "Christmas Wreath Lighthouse",
+        "columns": 4
+      },
+      {
+        "fileName": "lighthouseBeachLong.jpg",
+        "title": "Beach Lighthouse Reflection",
+        "columns": 4
+      },
+      {
+        "fileName": "xmasLighthouse.jpg",
+        "title": "Glowing Wreath Lighthouse",
+        "columns": 4
+      }
+    ],
+    [
+      {
+        "fileName": "lighthouseMoon.jpg",
+        "title": "Moon Lighthouse",
+        "columns": 4
+      },
+      {
+        "fileName": "winterSunset.jpg",
+        "title": "Sunset in Woods",
+        "columns": 4
+      },
+      {
+        "fileName": "lighthouseNight.jpg",
+        "title": "Moon Reflection Lighthouse",
+        "columns": 4
+      }
+    ],
+    [ 
+      {
+        "fileName": "winter3piece.jpg",
+        "title": "Three Panel Sunset Lake",
+        "columns": 10,
+        "offset": 1
+      }
+    ],
+    [
+      {
+        "fileName": "whaleJump.jpg",
+        "title": "Sunset Breach",
+        "columns": 4
+      },
+      {
+        "fileName": "winterSunset3.jpg",
+        "title": "Warmth in the Woods",
+        "columns": 4
+      },
+      {
+        "fileName": "whaleTail.jpg",
+        "title": "Sailing Surprise",
+        "columns": 4
+      }
+    ],
+    [
+      {
+        "fileName": "apple.jpg",
+        "title": "Apple",
+        "columns": 4
+      },
+      {
+        "fileName": "cat.jpg",
+        "title": "Peek-a-boo Kitten",
+        "columns": 4
+      },
+      {
+        "fileName": "appleHeart.jpg",
+        "title": "Apple Heart",
+        "columns": 4
+      }
+    ],
+    [
+      {
+        "fileName": "lakesunset2piece.jpg",
+        "title": "Sunset Lake",
+        "columns": 6
+      },
+      {
+        "fileName": "winterSunset2.jpg",
+        "title": "Pink Meadow",
+        "columns": 6
+      }
+    ],
+    [
+      {
+        "fileName": "moose.jpg",
+        "title": "Maine Moose",
+        "columns": 4
+      },
+      {
+        "fileName": "westportRiver.jpg",
+        "title": "Westport River",
+        "columns": 4
+      },
+      {
+        "fileName": "horse.jpg",
+        "title": "White Stallion",
+        "columns": 4
+      }
+    ],
+    [ 
+      {
+        "fileName": "mountain3piece.jpg",
+        "title": "Vibrant Mountains",
+        "columns": 10,
+        "offset": 1
+      }
+    ],
+    [
+      {
+        "fileName": "oceanMoonAbstract.jpg",
+        "title": "Moon Vortex",
+        "columns": 3
+      },
+      {
+        "fileName": "beachSunsetAbstract.jpg",
+        "title": "Caribbean Sun Vortex",
+        "columns": 6
+      },
+      {
+        "fileName": "oceanMoon.jpg",
+        "title": "Full Moon at the Beach",
+        "columns": 3
+      }
+    ],
+    [
+      {
+        "fileName": "snowman.jpg",
+        "title": "Snowman",
+        "columns": 3
+      },
+      {
+        "fileName": "winter.jpg",
+        "title": "Seaside Winter",
+        "columns": 6
+      },
+      {
+        "fileName": "loveletter4piece.jpg",
+        "title": "Love Letters",
+        "columns": 3
+      }
+    ],
+    [ 
+      {
+        "fileName": "paris.jpg",
+        "title": "Paris at Dusk",
+        "columns": 4,
+        "offset": 4
+      }
+    ]
+  ],
+  "misc": [
+    [ 
+      {
+        "fileName": "beachCoasters.jpg",
+        "title": "title",
+        "columns": 4,
+        "offset": 0
+      },
+      {
+        "fileName": "lightHouseCoasters.jpg",
+        "title": "title",
+        "columns": 4,
+        "offset": 0
+      },
+      {
+        "fileName": "christmasBeachCoasters.jpg",
+        "title": "title",
+        "columns": 4,
+        "offset": 0
+      }
+    ],
+    [
+      {
+        "fileName": "surfboard.jpg",
+        "title": "title",
+        "columns": 10,
+        "offset": 1
+      }
+    ],
+    [
+      {
+        "fileName": "woodBeach.jpg",
+        "title": "title",
+        "columns": 6,
+        "offset": 0
+      },
+      {
+        "fileName": "woodPalmTree.jpg",
+        "title": "title",
+        "columns": 6,
+        "offset": 0
+      }
+    ],
+    [
+      {
+        "fileName": "guitar.jpg",
+        "title": "title",
+        "columns": 6,
+        "offset": 3
+      }
+    ],
+    [
+      {
+        "fileName": "monkeySkate.jpg",
+        "title": "title",
+        "columns": 4,
+        "offset": 4
+      }
+    ]
+  ],
+  "ornaments": [
+    [
+      {
+        "fileName": "beachSnowmanOrnament.jpg",
+        "title": "Snowman in Paradise #1",
+        "columns": 4,
+        "offset": 0
+      },
+      {
+        "fileName": "snowmenOrnament.jpg",
+        "title": "Snow Couple in the Mountains",
+        "columns": 4,
+        "offset": 0
+      },
+      {
+        "fileName": "beachSnowmanOrnament2.jpg",
+        "title": "Snowman in Paradise #2",
+        "columns": 4,
+        "offset": 0
+      }
+    ],
+    [
+      {
+        "fileName": "beachOrnament.jpg",
+        "title": "Palm Tree #1",
+        "columns": 4,
+        "offset": 0
+      },
+      {
+        "fileName": "landOrnament.jpg",
+        "title": "Country Lake",
+        "columns": 4,
+        "offset": 0
+      },
+      {
+        "fileName": "beachOrnament2.jpg",
+        "title": "Palm Tree #2",
+        "columns": 4,
+        "offset": 0
+      }
+    ],
+    [
+      {
+        "fileName": "birdsOrnament.jpg",
+        "title": "Christmas Bluebirds",
+        "columns": 4,
+        "offset": 0
+      },
+      {
+        "fileName": "penguinOrnament.jpg",
+        "title": "Winter Penguin",
+        "columns": 4,
+        "offset": 0
+      },
+      {
+        "fileName": "birdsOrnament2.jpg",
+        "title": "Mistletoe Love Birds",
+        "columns": 4,
+        "offset": 0
+      }
+    ],
+    [
+      {
+        "fileName": "landOrnament2.jpg",
+        "title": "Winter Seaside",
+        "columns": 4,
+        "offset": 0
+      },
+      {
+        "fileName": "mooseOrnament.jpg",
+        "title": "Moose Sunrise",
+        "columns": 4,
+        "offset": 0
+      },
+      {
+        "fileName": "winterOrnament.jpg",
+        "title": "Purple Winter Lake",
+        "columns": 4,
+        "offset": 0
+      }
+    ],
+    [
+      {
+        "fileName": "lighthouseOrnament3.jpg",
+        "title": "Summer Lighthouse",
+        "columns": 4,
+        "offset": 0
+      },
+      {
+        "fileName": "lighthouseOrnament.jpg",
+        "title": "Winter Lighthouse",
+        "columns": 4,
+        "offset": 0
+      },
+      {
+        "fileName": "lighthouseOrnament2.jpg",
+        "title": "Cliff Lighthouse",
+        "columns": 4,
+        "offset": 0
+      }
+    ],
+    [
+      {
+        "fileName": "snowmanSunsetOrnament.jpg",
+        "title": "Snowman at Dusk",
+        "columns": 4,
+        "offset": 2
+      },
+      {
+        "fileName": "treeOrnament.jpg",
+        "title": "Glowing Christmas Tree",
+        "columns": 4,
+        "offset": 0
+      }
+    ]
+  ],
+  "prints": [
+    [
+      {
+        "fileName": "charlottesweb.jpg",
+        "title": "Charlotte's Web",
+        "columns": 6,
+        "offset": 0
+      },
+      {
+        "fileName": "lordoftheflies.jpg",
+        "title": "Lord of the Flies",
+        "columns": 6,
+        "offset": 0
+      }
+    ],
+    [
+      {
+        "fileName": "hunchbackofnotredame.jpg",
+        "title": "Hunchback of Notre Dame",
+        "columns": 4,
+        "offset": 0
+      },
+      {
+        "fileName": "lionthewitchandthewardrobe.jpg",
+        "title": "Lion, the Witch, and the Wardrobe",
+        "columns": 4,
+        "offset": 0
+      },
+      {
+        "fileName": "mobydick.jpg",
+        "title": "Moby Dick",
+        "columns": 4,
+        "offset": 0
+      }
+    ],
+    [
+      {
+        "fileName": "oneflewoverthecuckoosnest.jpg",
+        "title": "One Flew Over the Cuckoos Next",
+        "columns": 6,
+        "offset": 0
+      },
+      {
+        "fileName": "lesmiserables.jpg",
+        "title": "Les Miserables",
+        "columns": 6,
+        "offset": 0
+      }
+    ],
+    [
+      {
+        "fileName": "olivertwist.jpg",
+        "title": "Oliver Twist",
+        "columns": 4,
+        "offset": 2
+      },
+      {
+        "fileName": "wizardofoz.jpg",
+        "title": "Wizard of Oz",
+        "columns": 4,
+        "offset": 0
+      }
+    ],
+    [
+      {
+        "fileName": "waterforelephants.jpg",
+        "title": "Water for Elephants",
+        "columns": 8,
+        "offset": 2
+      }
+    ]
+  ]
+}
